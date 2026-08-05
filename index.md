@@ -22,7 +22,13 @@ Before we jump into SPARQL, a few useful tips to be aware of as you start explor
 ---
 ## Lesson 1: What is SPARQL?
 
-SPARQL is a query language for [RDF data](https://en.wikipedia.org/wiki/Resource_Description_Framework) and is part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) since 2008. The data has to be stored as triples where the object of one triple can be the subject of another triple. Thus, one can think about a huge knowledge graph, where the nodes are connected by the predicates with other nodes. For example here we see all the information about the book “The Meaning of It All” from Wikidata as a graph:
+SPARQL is a query language for [RDF data](https://en.wikipedia.org/wiki/Resource_Description_Framework) and has been part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) since 2008. 
+
+Imagine that key pieces of information -- facts and interpretations (this sculpture was found in the Temple of Artemis; this wall painting depicts a Roman general) -- can be broken down into three distinct kernels (often referred to as "nodes") that can be strung together to express the idea.  This is the concept of a ["triple"](https://en.wikipedia.org/wiki/Semantic_triple) in RDF. A "subject" node can have a relationship -- a "predicate" -- with an "object" node, thereby expressing the fact/interpretation. 
+For example, in the statement "Bob knows John", "Bob" is the subject, "knows" is the relationship (Predicate), and "John" is the object. When we string those three elements together, we have expressed a fact!
+One node can have relationships with many different nodes, and those nodes have relationships with other nodes; RDF build into a giant web of data known as a [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_graph).
+
+For example here we see information about the building known as the ["Roman Military Palace"](https://www.wikidata.org/wiki/Q2047390) at Dura-Europos expressed as a knowledge graph:
 
 ---
 
