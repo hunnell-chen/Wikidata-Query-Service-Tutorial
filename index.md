@@ -35,4 +35,5 @@ SELECT ?item ?itemLabel WHERE {
 }
 LIMIT 50
 
+</details>
 [^1]: This tutorial adapts and builds upon the Library Carpentry Wikidata tutorial available at https://librarycarpentry.github.io/lc-wikidata/05-intro_to_querying.html 
