@@ -1,4 +1,4 @@
-# Intro to SPARQL for Cultural Heritage Data in Wikidata[^1]
+# Intro to SPARQL for Cultural Heritage Data in Wikidata<a id="ref1" href="#fn1"><sup>1</sup></a>
 This tutorial introduces the basics of querying Wikidata using SPARQL, the query language for RDF data. We will start with simple queries and work our way up to more complex ones, including visualizations like maps, charts, and graphs. The Wikidata Query Service at https://query.wikidata.org/ will be our main tool throughout this tutorial.
 
 # Learning Objectives
@@ -50,4 +50,6 @@ LIMIT 50
 ```
 
 </details>
-[^1]: This tutorial adapts and builds upon the Library Carpentry Wikidata tutorial available at https://librarycarpentry.github.io/lc-wikidata/05-intro_to_querying.html 
+<hr>
+
+<p id="fn1"><sup>1</sup> This tutorial adapts and builds upon the <a href="https://librarycarpentry.github.io/lc-wikidata/05-intro_to_querying.html">Library Carpentry Wikidata tutorial</a>. <a href="#ref1">↩</a></p>
