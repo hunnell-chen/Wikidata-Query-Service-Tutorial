@@ -2,9 +2,9 @@
 This tutorial introduces the basics of querying Wikidata using SPARQL, the query language for RDF data. We will start with simple queries and work our way up to more complex ones, including visualizations like maps, charts, and graphs. The Wikidata Query Service at https://query.wikidata.org/ will be our main tool throughout this tutorial.
 
 # Learning Objectives
-Introduce query languages in general, and SPARQL specifically 
-Build baseline skills for structuring queries to interact with knowledge graph data and generate data vizualizations
-Introduce the purpose and usefulness of queries for identifying missing information
+1. Introduce query languages in general, and SPARQL specifically 
+2. Build baseline skills for structuring queries to interact with knowledge graph data and generate data vizualizations
+3. Introduce the purpose and usefulness of queries for identifying missing information
 
 # "Quick and dirty" Keyword Searching
 There are different ways to query information in Wikidata. The simplest way is to use the search bar at the top of a Wikidata page to for search for a keyword, e.g. search for the Synagogue at Dura-Europos. The search bar at the top of a Wikidata page is set to look by default to search only in the Q-pages (that is, Wikidata items). 
