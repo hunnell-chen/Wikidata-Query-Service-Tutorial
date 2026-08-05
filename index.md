@@ -33,4 +33,7 @@ SELECT ?item ?itemLabel WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" . }
 }
 LIMIT 50
+
+<details>
+
 [^1]: This tutorial adapts and builds upon the Library Carpentry Wikidata tutorial available at https://librarycarpentry.github.io/lc-wikidata/05-intro_to_querying.html 
