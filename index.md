@@ -20,6 +20,11 @@ Before we jump into SPARQL, a few useful tips to be aware of as you start explor
 3. WikiProject IDEA items are indexed in Wikidata with the property **on focus list of wikimedia project (P5008)** pointing to **Wikiproject IDEA (Q114241199)**.
 
 ---
+## Lesson 1: What is SPARQL?
+
+SPARQL is a query language for [RDF data](https://en.wikipedia.org/wiki/Resource_Description_Framework) and is part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) since 2008. The data has to be stored as triples where the object of one triple can be the subject of another triple. Thus, one can think about a huge knowledge graph, where the nodes are connected by the predicates with other nodes. For example here we see all the information about the book “The Meaning of It All” from Wikidata as a graph:
+
+---
 
 ## Exercise 1: Basic Item Retrieval
 
