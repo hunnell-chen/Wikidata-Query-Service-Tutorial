@@ -23,7 +23,7 @@ Before we jump into SPARQL, a few useful tips to be aware of as you start explor
 
 ## Exercise 1: Basic Item Retrieval
 
-Write a SPARQL query to retrieve all items on the WikiProject IDEA focus list.
+[Write a SPARQL query in the Wikidata Query Service (WDQS)](https://query.wikidata.org) to retrieve all items on the WikiProject IDEA focus list.
 
 <details>
 <summary>Show me the solution</summary>
