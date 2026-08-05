@@ -3,12 +3,12 @@ This tutorial adapts and builds upon the Library Carpentry Wikidata tutorial ava
 
 This tutorial introduces the basics of querying Wikidata using SPARQL, the query language for RDF data. We will start with simple queries and work our way up to more complex ones, including visualizations like maps, charts, and graphs. The Wikidata Query Service at https://query.wikidata.org/ will be our main tool throughout this tutorial.
 
-#Learning Objectives
+# Learning Objectives
 Introduce query languages in general, and SPARQL specifically 
 Build baseline skills for structuring queries to interact with knowledge graph data and generate data vizualizations
 Introduce the purpose and usefulness of queries for identifying missing information
 
-#"Quick and dirty" Keyword Searching
+# "Quick and dirty" Keyword Searching
 There are different ways to query information in Wikidata. The simplest way is to use the search bar at the top of a Wikidata page to for search for a keyword, e.g. search for the Synagogue at Dura-Europos. The search bar at the top of a Wikidata page is set to look by default to search only in the Q-pages (that is, Wikidata items). 
 However, the drop down menu at the left of the search box can also be toggled to search for a property (looking in the P-pages). On a separate tab, take a moment to familiarize yourself with this feature. Paying attention to the drop down menu at the left of the search bar, search first for the item (Q-number) for the Synagogue at Dura-Europos. Next, toggle your dropdown to search in the properties (P-numbers) for the "significant person" property page.
 
