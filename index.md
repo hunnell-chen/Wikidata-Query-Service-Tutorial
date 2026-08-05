@@ -28,6 +28,8 @@ Before we jump into SPARQL, a few useful tips to be aware of as you start explor
 <details>
 <summary>Show me the solution</summary>
 
+[Try this query live on the Wikidata Query Service](https://query.wikidata.org/#SELECT%20%3Fitem%20%3FitemLabel%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP5008%20wd%3AQ114241199%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22%20.%20%7D%0A%7D%0ALIMIT%2050)
+
 ```sparql
 SELECT ?item ?itemLabel WHERE {
   ?item wdt:P5008 wd:Q114241199 .
