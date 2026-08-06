@@ -30,6 +30,7 @@ One node can have relationships with many different nodes, and those nodes have 
 
 For example here we see information about the building known as the ["Roman Military Palace"](https://www.wikidata.org/wiki/Q2047390) at Dura-Europos expressed as a knowledge graph:
 
+![Knowledge Graph Example](RMP_KG.png)
 ---
 
 ## Exercise 1: Basic Item Retrieval
