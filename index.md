@@ -31,6 +31,11 @@ One node can have relationships with many different nodes, and those nodes have 
 For example here we see information about the building known as the ["Roman Military Palace"](https://www.wikidata.org/wiki/Q2047390) at Dura-Europos expressed as a knowledge graph:
 
 ![Knowledge Graph Example](RMP_KG.png)
+
+Notice that knowledge graphs are **directional**. 
+In the example above, the arrows indicate which direction the statement moves (Subject-->Predicate-->Object). For instance: Roman Military Palace-->made from material-->stone. In the image below, the interactive knowledge graph above has been expanded, and is now showing nodes for an archival photograph (subject) --> depicts (predicate) --> Room 11 (object), and a specific Bronze Scale artifact (subject) --> location of discovery (predicate) --> Room 11 (object). Notice how Room 11 is connected as a "part of" Roman Military Palace.
+
+![Knowledge Graph Example](Incoming_RMP_KG)
 ---
 
 ## Exercise 1: Basic Item Retrieval
